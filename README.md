@@ -17,25 +17,17 @@
 
 ## 🖥️ 系統架構圖
 
-[SHT40 Sensor]
-      │
-    (I2C)
-      │
-  [AMB82 MCU]
-      │
- (TCP/WiFi)
-      │
-[Raspberry Pi Server]
-      │
-  (Sequelize ORM)
-      │
- [PostgreSQL Database]
-      │
- ┌─────────────┬─────────────┐
- │             │             │
- ▼             ▼             ▼
-Grafana     網頁前端     Telegram Bot
-(Dashboard) (Bootstrap)  (推播通知)
+## 🖥️ 系統架構圖
+
+```txt
+[SHT40 Sensor] --(I2C)--> [AMB82 MCU] --(TCP/WiFi)--> [Raspberry Pi Server] --(Sequelize ORM)--> [PostgreSQL Database]
+                                                                                                           │
+                                                                                                           ▼
+                              ┌──────────────────────┬───────────────────────┬
+                              │                      │                       │                     
+                              ▼                      ▼                       ▼                   
+                       [Grafana Dashboard]   [Web Dashboard (Bootstrap)]   [Telegram Bot]     
+
 
 ## ⚙️ 系統需求
 
