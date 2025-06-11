@@ -51,6 +51,7 @@ IOT_Sensor/
 
 ## ⚙️ 系統需求
 
+- SHT40 感測器
 - AMB82 Mini Board
 - Raspberry Pi 4
 - PostgreSQL 14+ (TimescaleDB 插件可選)
