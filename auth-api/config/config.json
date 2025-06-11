@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "fps114514YAN",
+    "database": "tsdb",
+    "host": "172.20.10.6",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "fps114514YAN",
+    "database": "tsdb",
+    "host": "172.20.10.6",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "fps114514YAN",
+    "database": "tsdb",
+    "host": "172.20.10.6",
+    "dialect": "postgres"
+  }
+}

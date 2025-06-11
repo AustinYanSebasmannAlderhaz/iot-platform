@@ -1,0 +1,22 @@
+.
+├── TCP_Server.js
+├── TCP_Server_postgresSQL.js
+├── TempHumiWeb
+│   ├── alerts.html
+│   ├── index.html
+│   ├── js
+│   ├── login.html
+│   └── register.html
+├── auth-api
+│   ├── config
+│   ├── migrations
+│   ├── models
+│   ├── node_modules
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── seeders
+│   └── server.js
+├── directory.txt
+└── start.sh
+
+8 directories, 11 files
