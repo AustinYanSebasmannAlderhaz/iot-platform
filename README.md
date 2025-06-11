@@ -26,7 +26,9 @@
                               ┌──────────────────────┬───────────────────────┬
                               │                      │                       │                     
                               ▼                      ▼                       ▼                   
-                       [Grafana Dashboard]   [Web Dashboard (Bootstrap)]   [Telegram Bot]     
+                       [Grafana Dashboard]   [Web Dashboard (Bootstrap)]   [Telegram Bot]
+
+```
 
 
 ## ⚙️ 系統需求
