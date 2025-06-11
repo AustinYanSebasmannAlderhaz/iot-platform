@@ -19,6 +19,7 @@
 ```txt
 IOT_Sensor/
 ├── start.sh                      ✅ 啟動腳本
+├──TCP_Client.ino                ✅ 在AMB82中啟動TCP_Client
 ├── TCP_Server_postgresSQL.js    ✅ TCP 資料接收與推播
 ├── auth-api/                    ✅ API Server
 │   ├── server.js
