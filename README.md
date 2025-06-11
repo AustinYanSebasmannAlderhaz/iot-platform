@@ -14,6 +14,27 @@
 - 🚨 Telegram Bot 發送異常警報並儲存紀錄
 
 ---
+
+## 📁 主要專案結構
+
+IOT_Sensor/
+├── start.sh                      ✅ 啟動腳本
+├── TCP_Server_postgresSQL.js    ✅ TCP 資料接收與推播
+├── auth-api/                    ✅ API Server
+│   ├── server.js
+│   └── models/
+│       ├── alert_record.js
+│       └── ...
+├── TempHumiWeb/                 ✅ 前端頁面
+│   ├── index.html
+│   ├── alerts.html
+│   ├── login.html
+│   ├── register.html
+│   └── js/
+│       └── auth.js
+
+
+---
 ## 🖥️ 系統架構圖
 
 ```txt
